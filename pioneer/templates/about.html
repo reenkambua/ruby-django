@@ -1,6 +1,8 @@
+{% load static %}
 <!doctype html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
     <meta charset="UTF-8">
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
@@ -9,5 +11,16 @@
 </head>
 <body>
 <h2>Welcome to about us page</h2>
+<p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+    Adipisci amet animi culpa enim est facilis molestiae nam necessitatibus omnis porro rem sit, 
+    voluptatibus! Deleniti ipsa nisi numquam perspiciatis quaerat voluptates?</span>
+    <span>Asperiores dolore, dolorem eligendi eveniet facilis impedit, laboriosam nesciunt perspiciatis
+        quasi similique soluta, suscipit tenetur ullam? Iste nam perspiciatis suscipit. Accusantium alias
+        autem consequuntur ipsum nemo neque nostrum omnis sit.</span>
+    <span>Amet architecto consectetur magnam nostrum nulla vero. Consequatur error 
+    facilis minus necessitatibus veniam. Cumque cupiditate dignissimos excepturi id
+        illo inventore iste molestias, nihil ratione vel. Ad modi obcaecati pariatur voluptatibus.</span></p>
+
+<img src="{% static '/images/tasks.jpg' %}" alt="">
 </body>
 </html>

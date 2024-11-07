@@ -10,10 +10,17 @@
     <title>Django</title>
 </head>
 <body>
-<a href="{% url 'about' %}">about us page</a>
-<a href="{% url 'contact' %}">Contact us page</a>
+<a href="{% url 'about' %}">about us page</a><br>
+<a href="{% url 'contact' %}">Contact us page</a><br>
+<a href="{% url 'blogs' %}">Blogs page</a><br>
+<a href="{% url 'services' %}">Services page</a><br>
+<a href="{% url 'overview' %}">Overview page</a>
 <h2>Welcome to Django</h2>
 <p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad atque blanditiis dolor eaque exercitationem id illo itaque maxime minus, quam tempora vitae? Architecto explicabo
-    facilis id optio perferendis quae, quia?</span></p>
+    facilis id optio perferendis quae, quia?
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus asperiores atque blanditiis corporis cumque dolores illum incidunt, minus quos saepe soluta temporibus vero.
+    Ab amet, iste iure minus quas tenetur.</span></p>
+
+<img src="{% static 'images/admin.jpg' %}" alt="">
 </body>
 </html>

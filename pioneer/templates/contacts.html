@@ -1,6 +1,8 @@
+{% load static %}
 <!doctype html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
     <meta charset="UTF-8">
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
@@ -9,5 +11,11 @@
 </head>
 <body>
 <h2>Welcome to contacts page</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa cumque dolorem ea eveniet, iste iure maiores
+    nesciunt non perspiciatis quod, saepe ut velit, veniam. Ex officia porro quae quis vitae!</p><br>
+<p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab consequatur dicta dolor dolorum et eveniet excepturi expedita, fugiat ipsum labore laudantium magni maiores nostrum, numquam qui quis quo sapiente voluptatibus.</span><span>Adipisci consectetur culpa distinctio eveniet fugiat molestias perspiciatis placeat quo totam? Autem beatae cum dolorum excepturi,
+    iste numquam odio sequi. Amet distinctio hic ipsam labore minima molestiae neque quisquam rem!</span></p>
+
+<img src="{% static '/images/mobile.jpg' %}" alt="">
 </body>
 </html>
